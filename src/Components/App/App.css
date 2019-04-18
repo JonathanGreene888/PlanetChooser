@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #282c34;
+  background-image: url("../../stars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.appBody {
+  background-color: #282c34;
+}
