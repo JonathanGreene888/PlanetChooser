@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App';
-import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
@@ -23,5 +22,3 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
-
-serviceWorker.unregister();
