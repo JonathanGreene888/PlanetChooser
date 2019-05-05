@@ -1,5 +1,5 @@
 export const data = {
-    data: {
+    picture: {
         copyright: 'test copyright',
         date: '04/23/1990',
         explanation: 'this is a picture',

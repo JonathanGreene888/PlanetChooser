@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 
 import './randomGenerator.css';
-import { RootState } from '../../state';
+import { PictureState } from '../../state';
 
 interface RandomGeneratorProps {
     generatePlanet: () => void;
-    planet: RootState;
+    planet: PictureState;
 }
 
 const RandomGenerator: React.FC<RandomGeneratorProps> = props => {

@@ -6,15 +6,14 @@ import { generatePlanet, fetchPlanetSuccessful } from '../Actions/generate.actio
 import { data } from '../../test.data';
 
 function fetchNewPlanet() {
-    // return axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
-    return data;
+    return axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
+    // return data;
 }
 
 function* returnPlanet() {
     try {
         const result = yield call(fetchNewPlanet);
         yield put(fetchPlanetSuccessful(result.data));
-        console.log(result.data);
     } catch {}
 }
 

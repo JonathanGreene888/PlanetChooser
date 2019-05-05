@@ -1,4 +1,8 @@
 export interface RootState {
+    pictureState: PictureState;
+}
+
+export interface PictureState {
     copyright?: string;
     date?: string;
     explanation?: string;
