@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import './randomGenerator.css';
 import { RootState } from '../../state';
@@ -12,13 +12,12 @@ const RandomGenerator: React.FC<RandomGeneratorProps> = props => {
     const { generatePlanet, picture } = props;
     console.log(picture);
     return (
-        <Fragment>
+        <>
             <button className="generatorButton" onClick={generatePlanet}>
                 Random Generator
             </button>
-            <div className="generatedTitle">{picture.title}</div>
-            <div className="generatedImage">{picture.hdURL}</div>
-        </Fragment>
+            <div className="generatedImage">{picture.title}</div>
+        </>
     );
 };
 
