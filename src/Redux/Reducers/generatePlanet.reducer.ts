@@ -4,13 +4,14 @@ import { fetchPlanetSuccessful } from '../Actions/generate.actions';
 import { GenerateAction } from '../Actions/actions.types';
 import { PictureState } from '../../state';
 
-const initialState = {};
+const initialState: PictureState = {};
 
-export default (state: PictureState = initialState, action: GenerateAction) => {
+export default (state = initialState, action: GenerateAction) => {
     switch (action.type) {
         case getType(fetchPlanetSuccessful): {
             return {
-                state: action.payload,
+                ...state,
+                picture: action.payload,
             };
         }
         default: {

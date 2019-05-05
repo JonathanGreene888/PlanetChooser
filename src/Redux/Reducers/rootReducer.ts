@@ -4,5 +4,5 @@ import generatePlanetReducer from './generatePlanet.reducer';
 
 export default () =>
     combineReducers({
-        planetData: generatePlanetReducer,
+        pictureData: generatePlanetReducer,
     });
