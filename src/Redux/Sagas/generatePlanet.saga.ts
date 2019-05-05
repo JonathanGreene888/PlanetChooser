@@ -3,15 +3,18 @@ import { getType } from 'typesafe-actions';
 import axios from 'axios';
 
 import { generatePlanet, fetchPlanetSuccessful } from '../Actions/generate.actions';
+import { data } from '../../test.data';
 
 function fetchNewPlanet() {
-    return axios.get('/i am the api call to nasa planet');
+    // return axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
+    return data;
 }
 
 function* returnPlanet() {
     try {
         const result = yield call(fetchNewPlanet);
-        yield put(fetchPlanetSuccessful(result));
+        yield put(fetchPlanetSuccessful(result.data));
+        console.log(result.data);
     } catch {}
 }
 

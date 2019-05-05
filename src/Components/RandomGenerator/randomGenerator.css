@@ -7,3 +7,12 @@
     border-color: white;
     background-color: rgb(20, 20, 56);
 }
+
+.generatedTitle {
+    border: 1px solid red;
+}
+
+
+.generatedImage {
+    border: 1px solid red;
+}

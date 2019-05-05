@@ -1,20 +1,17 @@
 import { getType } from 'typesafe-actions';
 
 import { fetchPlanetSuccessful } from '../Actions/generate.actions';
-
-import { RootState } from '../../state';
 import { GenerateAction } from '../Actions/actions.types';
+import { RootState } from '../../state';
 
-export const initialState: RootState = {
-    example: true,
-};
+const initialState = {};
 
-export default (state = initialState, action: GenerateAction) => {
+export default (state: RootState = initialState, action: GenerateAction) => {
     switch (action.type) {
         case getType(fetchPlanetSuccessful): {
             return {
                 ...state,
-                example: action.payload,
+                planet: action.payload,
             };
         }
         default: {

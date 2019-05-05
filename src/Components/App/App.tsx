@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import RandomGenerator from '../RandomGenerator/randomGenerator.component';
+import RandomGenerator from '../RandomGenerator/';
 
 class App extends Component {
     render() {

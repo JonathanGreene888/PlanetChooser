@@ -1,3 +1,10 @@
 export interface RootState {
-    example: boolean;
+    copyright?: string;
+    date?: string;
+    explanation?: string;
+    hdURL?: string;
+    mediaType?: string;
+    serviceVersion?: string;
+    title?: string;
+    url?: string;
 }
