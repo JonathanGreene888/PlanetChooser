@@ -9,10 +9,16 @@
 }
 
 .generatedTitle {
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
 
-
 .generatedImage {
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.generatedVideo {
+    display: flex;
+    justify-content: center;
 }

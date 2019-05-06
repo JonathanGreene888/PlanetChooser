@@ -7,7 +7,7 @@ class App extends Component {
         return (
             <div className="app">
                 <header className="appHeader">
-                    <h1>Planet-Saver</h1>
+                    <h1>Nasa Random Picture Picker </h1>
                 </header>
                 <RandomGenerator />
             </div>

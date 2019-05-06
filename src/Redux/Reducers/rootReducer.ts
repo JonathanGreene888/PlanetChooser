@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
 
-import generatePlanetReducer from './generatePlanet.reducer';
+import generatePictureReducer from './generatePicture.reducer';
 
 export default () =>
     combineReducers({
-        pictureData: generatePlanetReducer,
+        pictureData: generatePictureReducer,
     });

@@ -1,11 +1,11 @@
 import { RootState } from '../../state';
 
-import { generatePlanet } from '../../Redux/Actions/generate.actions';
+import { generatePicture } from '../../Redux/Actions/generate.actions';
 
 export const mapStateToProps = (state: RootState) => ({
-    picture: state || 'Picture not available',
+    picture: state.pictureData || 'Picture data is not available',
 });
 
 export const mapDispatchToProps = {
-    generatePlanet,
+    generatePicture,
 };

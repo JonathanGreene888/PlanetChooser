@@ -1,8 +1,8 @@
 import { all } from 'redux-saga/effects';
 
-import GeneratePlanet from './generatePlanet.saga';
+import GeneratePicture from './generatePicture.saga';
 
 // Add new sagas here
 export default function* RootSaga() {
-    yield all([GeneratePlanet()]);
+    yield all([GeneratePicture()]);
 }
