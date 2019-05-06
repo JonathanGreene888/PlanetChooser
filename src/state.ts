@@ -6,9 +6,9 @@ export interface PictureState {
     copyright?: string;
     date?: string;
     explanation?: string;
-    hdURL?: string;
-    media_Type?: string;
-    service_Version?: string;
+    hdurl?: string;
+    media_type?: string;
+    service_version?: string;
     title?: string;
     url?: string;
 }
