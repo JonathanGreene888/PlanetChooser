@@ -3,15 +3,23 @@
     height: 100px;
     margin-top: 50px;
     font-size: 18px;
-    color: white;
-    border-color: white;
-    background-color: rgb(20, 20, 56);
+    color: #140F2D;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.generatorButton:hover {
+    background-color: rgba(20, 15, 45, 0.473);
+}
+
+.generatorButton:focus {
+    outline: none;
 }
 
 .generatedTitle {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #140F2D;
 }
 
 .generatedImage {
