@@ -1,43 +1,43 @@
 {
-    "name": "nasa-picture-chooser",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@types/jest": "24.0.11",
-        "@types/node": "11.11.4",
-        "@types/react": "16.8.8",
-        "@types/react-dom": "16.8.2",
-        "@types/react-redux": "^7.0.6",
-        "axios": "^0.18.0",
-        "react": "^16.8.4",
-        "react-dom": "^16.8.4",
-        "react-player": "^1.11.0",
-        "react-redux": "^7.0.2",
-        "react-scripts": "2.1.8",
-        "redux": "^4.0.1",
-        "redux-devtools-extension": "^2.13.8",
-        "redux-saga": "^1.0.2",
-        "ts-jest": "^24.0.2",
-        "tslint": "^5.16.0",
-        "tslint-config-prettier": "^1.18.0",
-        "tslint-react": "^4.0.0",
-        "typesafe-actions": "^4.0.0",
-        "typescript": "3.3.4000"
-    },
-    "scripts": {
-        "dev": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "lint": "tslint -c tslint.json './src/**/*.ts' --fix && stylelint \"./src/**/*.css\" --fix"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+  "name": "nasa-picture-chooser",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.11.4",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "@types/react-redux": "^7.0.6",
+    "axios": "^0.18.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-player": "^1.11.0",
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
+    "typesafe-actions": "^4.0.0",
+    "typescript": "3.3.4000"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint -c tslint.json './src/**/*.ts' --fix && stylelint \"./src/**/*.css\" --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
