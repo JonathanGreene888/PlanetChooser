@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  background-color: #97a7a7;
 }
 
 .appHeader {
@@ -11,5 +12,7 @@
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 247, 247, 0.89);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
