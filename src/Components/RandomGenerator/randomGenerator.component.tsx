@@ -18,7 +18,6 @@ const RandomGenerator: React.FC<RandomGeneratorProps> = props => {
       </button>
       <h1 className="generatedTitle">{picture.title}</h1>
       {picture.media_type !== undefined ? (
-        // do some stuff
         picture.media_type === "image" ? (
           <div className="generatedImage">
             <img

@@ -15,5 +15,5 @@ export interface PictureState {
 }
 
 export interface SavedPicturesState {
-  picture: Array<PictureState>;
+  savedImages: Array<string>;
 }
