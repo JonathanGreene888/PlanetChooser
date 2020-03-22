@@ -21,8 +21,7 @@ function* returnPicture() {
     const result = yield call(fetchNewPicture);
     yield put(fetchPictureSuccessful(result.data));
   } catch {
-    const result = yield call(fetchNewPicture);
-    yield put(fetchPictureSuccessful(result.data));
+    console.error("Invalid picture found");
   }
 }
 

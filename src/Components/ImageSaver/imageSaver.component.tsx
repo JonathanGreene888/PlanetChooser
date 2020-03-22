@@ -27,7 +27,9 @@ const ImageSaver: React.FC<ImageSaverProps> = props => {
               <div key={image}></div>
             ) : (
               <div key={image} className="card">
-                <img src={image} alt="Image or Video in strange format" />
+                <a href={image} target="_blank">
+                  <img src={image} alt="Image or Video in strange format" />
+                </a>
               </div>
             );
           })}
