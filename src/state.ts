@@ -1,6 +1,6 @@
 export interface RootState {
   pictureData: PictureState;
-  savedPictures: SavedPicturesState;
+  savedImages: SavedPicturesState;
 }
 
 export interface PictureState {

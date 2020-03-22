@@ -5,12 +5,12 @@ import "./imageSaver.css";
 interface ImageSaverProps {
   saveImage: (url: string) => void;
   pictureUrl: string;
-  savedImages: Array<string>;
+  savedImages?: { savedImages: [] };
 }
 
 const ImageSaver: React.FC<ImageSaverProps> = props => {
   const { saveImage, pictureUrl, savedImages } = props;
-
+  console.log(savedImages);
   return (
     <div>
       <button
@@ -23,8 +23,10 @@ const ImageSaver: React.FC<ImageSaverProps> = props => {
       <h1> Saved Images </h1>
       <div className="saved-Images-Container">
         {savedImages &&
-          savedImages.map(image => {
-            return (
+          savedImages.savedImages.map(image => {
+            return image === "" ? (
+              <div key={image}></div>
+            ) : (
               <div key={image} className="card">
                 <img src={image} alt="Avatar" />
               </div>

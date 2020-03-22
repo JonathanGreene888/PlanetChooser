@@ -9,7 +9,10 @@ const initialState: any = { savedImages: [] };
 export default (state = initialState, action: SaveImageSuccessfull) => {
   switch (action.type) {
     case getType(saveImage): {
-      return { ...state, savedImages: [...state.savedImages, action.payload] };
+      return {
+        ...state,
+        savedImages: [state, action.payload]
+      };
     }
     default: {
       return state;
