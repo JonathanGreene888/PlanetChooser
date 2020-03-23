@@ -1,10 +1,10 @@
 .app {
   text-align: center;
-  background-color: #97a7a7;
+  background-color: #1a4876;
 }
 
 .appHeader {
-  background-color: #282c34;
+  background-color: #1a4876;
   background-image: url("../../stars.jpg");
   background-repeat: no-repeat;
   background-size: cover;

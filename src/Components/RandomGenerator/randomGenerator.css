@@ -4,12 +4,13 @@
   margin-top: 3rem;
   font-size: 1.6rem;
   border-radius: 0.4rem;
-  background-color: rgb(167, 151, 151);
+  background-color: #087e7c;
   border: 0.5px solid black;
+  color: rgba(255, 247, 247, 0.89);
 }
 
 .generatorButton:hover {
-  background-color: rgb(104, 96, 96);
+  background-color: #087e7ca9;
   border: 2px solid black;
 }
 
@@ -20,7 +21,7 @@
 .generatedTitle {
   display: flex;
   justify-content: center;
-  color: #140f2d;
+  color: rgba(255, 247, 247, 0.89);
 }
 
 .generatedImage {
